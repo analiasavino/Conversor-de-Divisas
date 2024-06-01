@@ -98,9 +98,9 @@ public class Main {
             break;
           case 7:
             System.out.println(menu1.getMenulibreEleccion());
-            System.out.println("\n" + "Por favor ingrese tal y como figura en el listado la moneda desde la que desea convertir" +"\n");
+            System.out.println("\n" + "Por favor ingrese tal y como figura en el listado el codigo de \nla moneda desde la que desea convertir." +"\n");
             monedaDeOrigen = scanner.next();
-            System.out.println("\n" + "Por favor ingrese tal y como figura en el listado la moneda a la que desea convertir" +"\n");
+            System.out.println("\n" + "Por favor ingrese tal y como figura en el listado el codigo de \nla moneda a la que desea convertir." +"\n");
             monedaFinal = scanner.next();
             montoAConvertir = metodosyFunciones.ingresarMonto(scanner);
             exchangeRate = metodosyFunciones.pedioAAPI(monedaDeOrigen, monedaFinal, montoAConvertir);
@@ -112,9 +112,10 @@ public class Main {
             System.out.println("Este es el historial de conversiones realizadas hasta el momento: \n ");
             historial.getHistorialConversion().stream()
                   .forEach(System.out::println);
+            System.out.println("********************************************************************** \n");
+
             break;
         }
-
 
       }
 

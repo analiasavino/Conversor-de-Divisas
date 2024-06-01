@@ -6,7 +6,7 @@ import com.analiasavino.ConversorDeDivisas.modelos.Conversion;
 import java.util.ArrayList;
 import java.util.List;
 
-  public class Historial{
+  public class Historial {
 
     //creo la variable a nivel global de clase. (cuando la clase principal se ejecute se va crear un elemnto list vacio)
 
@@ -14,7 +14,7 @@ import java.util.List;
 
     //creo un metodo que agrega a la lista creada las conversiones
 
-    public void addHistorialConversion(Conversion conversion){
+    public void addHistorialConversion(Conversion conversion) {
       historialConversion.add(conversion);
       return;
 
@@ -25,7 +25,7 @@ import java.util.List;
     public List<Conversion> getHistorialConversion() {
 
       return historialConversion;
+
     }
+
   }
-
-

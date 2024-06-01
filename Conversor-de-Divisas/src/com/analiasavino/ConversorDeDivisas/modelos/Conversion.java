@@ -1,6 +1,6 @@
 package com.analiasavino.ConversorDeDivisas.modelos;
 
-  public class Conversion {
+public class Conversion {
     //declaro atributos de la clase.
     private String monedaDeOrigen;
     private String monedaFinal;
@@ -86,9 +86,12 @@ package com.analiasavino.ConversorDeDivisas.modelos;
     }
 
 
-    @Override
+  @Override
     public String toString() {
-      return getFecha() + " " + montoAConvertir + " " + monedaDeOrigen + " equivale/n a: " + montoConvertido + (" ") + monedaFinal + "\n";
+      return "El resultado de su conversion es:\n" +
+            montoAConvertir + " " + monedaDeOrigen + " equivale/n a: " + montoConvertido + (" ") +
+            monedaFinal + "\n" + "Fecha en que se realizo la misma: " + getFecha()+ " \n" ;
     }
+
   }
 

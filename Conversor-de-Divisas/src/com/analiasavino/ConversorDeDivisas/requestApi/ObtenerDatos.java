@@ -32,6 +32,5 @@ public class ObtenerDatos {
     String json = response.body();
     return json;
   }
-
 }
 
