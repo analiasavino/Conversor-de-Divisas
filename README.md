@@ -27,3 +27,6 @@ Tercer y ultimo desafio, investigar si existe una API que devuelva la cotizació
 
 
 DEMOSTRACION
+
+https://www.canva.com/design/DAGG2aHDzdE/Q8-yNiaQBihw2NUeibBbQQ/watch?utm_content=DAGG2aHDzdE&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
