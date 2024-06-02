@@ -3,21 +3,23 @@ Bienvenido a mi Conversor de Divisas.
 Este proyecto fue realizado por mi dentro del marco de la capitación que estoy realizando dentro del Programa One 6ta edición, 
 dictado por el excelente equipo de Alura Latam y patrocinado por Oracle. El mismo se esta hecho completamente con java.
 
-DESCRIPCION
+### DESCRIPCION
 
 El mismo permite realizar la conversión entre 161 monedas circulantes, las operaciones pueden realizarse gracias a la conexión
 con ExchangeRate-API: https://www.exchangerate-api.com/. En una primera pantalla presente 6 combinaciones de monedas a convertir, respetando el modelo presentado en el desafio, no obstante se agrego una séptima opción que permite establecer cualquier composicion. En el punto 8 podemos acceder a un historial de las ultimas conversiones realizadas, la novena opcion permite salir del programa.
 
-TEMAS TRABAJADOS.
+### TEMAS TRABAJADOS.
 
 Temas que se trabajaron en este proyecto fueron. 
-Programación orientada o objetos.
-Conexion con Apis, procesamiento de archivos Json y su conversion a Gson.
-Manejo de excepciones.
-Manejo de Listas y Arrays.
-Uso de la clase Java.time.
+- Configuracion del ambiente Java.
+- Programación orientada o objetos.
+- Conexion con Apis, procesamiento de la respuesta JSON.
+- Manejo de excepciones.
+- Manejo de Listas y Arrays.
+- Exibicion de resultados al usuario.
+- Uso de la clase Java.time.
 
-PROXIMOS DESAFIOS Y MEJORAS. 
+### PROXIMOS DESAFIOS Y MEJORAS. 
 Primer desafio quiero mejorar la parte del historial permitiendole al usuario poder ordenar la lista de conversiones realizadas, 
 en fucion a la fecha y a la monedas utilizadas en las mismas. Por supuesto esta utilidad tendra una limitacion y es que al no estar la aplicacion conectada a una base de datos no hay persistencia de los mismos en el tiempo, sino que son aquellos que se obtienen durante una cesion.
 
@@ -26,7 +28,9 @@ Segundo desafio importante, crear una función que cuando el usuario ingrese mal
 Tercer y ultimo desafio, investigar si existe una API que devuelva la cotización en dolares de las Criptomonedas, y asi poder convertirlas a la moneda de uso legal que el usuario quiera. (esta idea se motiva en la gran cantidad de trabajadores argentinos que hoy trabajan para el exterior y cobran sus salarios por esta via)
 
 
-DEMOSTRACION
+### DEMOSTRACION
 
-https://www.canva.com/design/DAGG2aHDzdE/Q8-yNiaQBihw2NUeibBbQQ/watch?utm_content=DAGG2aHDzdE&utm_campaign=designshare&utm_medium=link&utm_source=editor
+[![Demostracion del funcionamiento del conversor de divisas](https://img.youtube.com/vi/rUEsqxjMZGI/0.jpg)](https://www.youtube.com/watch?v=rUEsqxjMZGI)
+
+
 
